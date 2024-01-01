@@ -1,0 +1,20 @@
+PODS:
+  - lottie-ios (3.3.0)
+  - TransitionButton (0.5.3)
+
+DEPENDENCIES:
+  - lottie-ios
+  - TransitionButton
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
+
+PODFILE CHECKSUM: 28d40862b3b67964e22a33c20c09154f388a7104
+
+COCOAPODS: 1.11.2

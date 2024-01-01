@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44849AE22B403A71003016E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44849AE12B403A71003016E8 /* Assets.xcassets */; };
+		44C32A5C27A81D230027857C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C32A5B27A81D230027857C /* AppDelegate.swift */; };
+		44C32A5E27A81D230027857C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C32A5D27A81D230027857C /* SceneDelegate.swift */; };
+		44C32A6027A81D230027857C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C32A5F27A81D230027857C /* ViewController.swift */; };
+		44C32A6327A81D230027857C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A6127A81D230027857C /* Main.storyboard */; };
+		44C32A6827A81D270027857C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A6627A81D270027857C /* LaunchScreen.storyboard */; };
+		44C32A7627A833140027857C /* STXINGKA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A7427A82F840027857C /* STXINGKA.ttf */; };
+		44C32A7927A834C50027857C /* WenYue-HuiMoShouShu-J-2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A7827A834C50027857C /* WenYue-HuiMoShouShu-J-2.otf */; };
+		44C32A7C27A839F70027857C /* 2045-furtune.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A7B27A839F70027857C /* 2045-furtune.json */; };
+		44C32A7F27A8418E0027857C /* NewYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C32A7E27A8418E0027857C /* NewYearViewController.swift */; };
+		44C32A8227A842AF0027857C /* 14274-chinese-new-year.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A8127A842AF0027857C /* 14274-chinese-new-year.json */; };
+		44C32A8527A842B70027857C /* 74268-cute-tiger.json in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A8427A842B70027857C /* 74268-cute-tiger.json */; };
+		44C32A8F27A853030027857C /* 春节序曲.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 44C32A8E27A853030027857C /* 春节序曲.mp3 */; };
+		ADEB82207F16FE6CAEA16CB7 /* Pods_HappyNewYear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7611CA88B114BF568657A18 /* Pods_HappyNewYear.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E6B2FDF175660E9AF6C9AB /* Pods-HappyNewYear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyNewYear.debug.xcconfig"; path = "Target Support Files/Pods-HappyNewYear/Pods-HappyNewYear.debug.xcconfig"; sourceTree = "<group>"; };
+		3079DFECDCB157FEC986AE5C /* Pods-HappyNewYear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyNewYear.release.xcconfig"; path = "Target Support Files/Pods-HappyNewYear/Pods-HappyNewYear.release.xcconfig"; sourceTree = "<group>"; };
+		44849AE12B403A71003016E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C32A5827A81D230027857C /* HappyNewYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyNewYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C32A5B27A81D230027857C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44C32A5D27A81D230027857C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44C32A5F27A81D230027857C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44C32A6227A81D230027857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44C32A6727A81D270027857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44C32A6927A81D270027857C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C32A7427A82F840027857C /* STXINGKA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STXINGKA.ttf; sourceTree = "<group>"; };
+		44C32A7827A834C50027857C /* WenYue-HuiMoShouShu-J-2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WenYue-HuiMoShouShu-J-2.otf"; sourceTree = "<group>"; };
+		44C32A7B27A839F70027857C /* 2045-furtune.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "2045-furtune.json"; sourceTree = "<group>"; };
+		44C32A7E27A8418E0027857C /* NewYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewYearViewController.swift; sourceTree = "<group>"; };
+		44C32A8127A842AF0027857C /* 14274-chinese-new-year.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "14274-chinese-new-year.json"; sourceTree = "<group>"; };
+		44C32A8427A842B70027857C /* 74268-cute-tiger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "74268-cute-tiger.json"; sourceTree = "<group>"; };
+		44C32A8E27A853030027857C /* 春节序曲.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "春节序曲.mp3"; sourceTree = "<group>"; };
+		F7611CA88B114BF568657A18 /* Pods_HappyNewYear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyNewYear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C32A5527A81D230027857C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB82207F16FE6CAEA16CB7 /* Pods_HappyNewYear.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30B7FCA3FAC71EC1BE6FF6E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E6B2FDF175660E9AF6C9AB /* Pods-HappyNewYear.debug.xcconfig */,
+				3079DFECDCB157FEC986AE5C /* Pods-HappyNewYear.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44C32A4F27A81D230027857C = {
+			isa = PBXGroup;
+			children = (
+				44C32A5A27A81D230027857C /* HappyNewYear */,
+				44C32A5927A81D230027857C /* Products */,
+				30B7FCA3FAC71EC1BE6FF6E6 /* Pods */,
+				5BB9E13D1C3A16F7BE768E60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44C32A5927A81D230027857C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C32A5827A81D230027857C /* HappyNewYear.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C32A5A27A81D230027857C /* HappyNewYear */ = {
+			isa = PBXGroup;
+			children = (
+				44C32A8B27A84BB40027857C /* Resources */,
+				44C32A5B27A81D230027857C /* AppDelegate.swift */,
+				44C32A5D27A81D230027857C /* SceneDelegate.swift */,
+				44C32A5F27A81D230027857C /* ViewController.swift */,
+				44C32A7E27A8418E0027857C /* NewYearViewController.swift */,
+				44C32A6127A81D230027857C /* Main.storyboard */,
+				44849AE12B403A71003016E8 /* Assets.xcassets */,
+				44C32A6627A81D270027857C /* LaunchScreen.storyboard */,
+				44C32A6927A81D270027857C /* Info.plist */,
+			);
+			path = HappyNewYear;
+			sourceTree = "<group>";
+		};
+		44C32A8B27A84BB40027857C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44C32A8E27A853030027857C /* 春节序曲.mp3 */,
+				44C32A8127A842AF0027857C /* 14274-chinese-new-year.json */,
+				44C32A8427A842B70027857C /* 74268-cute-tiger.json */,
+				44C32A7B27A839F70027857C /* 2045-furtune.json */,
+				44C32A7827A834C50027857C /* WenYue-HuiMoShouShu-J-2.otf */,
+				44C32A7427A82F840027857C /* STXINGKA.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BB9E13D1C3A16F7BE768E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7611CA88B114BF568657A18 /* Pods_HappyNewYear.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C32A5727A81D230027857C /* HappyNewYear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C32A6C27A81D270027857C /* Build configuration list for PBXNativeTarget "HappyNewYear" */;
+			buildPhases = (
+				20048AAC2EB11933541161F4 /* [CP] Check Pods Manifest.lock */,
+				44C32A5427A81D230027857C /* Sources */,
+				44C32A5527A81D230027857C /* Frameworks */,
+				44C32A5627A81D230027857C /* Resources */,
+				CD692FCA315B23152F2FE02F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyNewYear;
+			productName = HappyNewYear;
+			productReference = 44C32A5827A81D230027857C /* HappyNewYear.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C32A5027A81D230027857C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					44C32A5727A81D230027857C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 44C32A5327A81D230027857C /* Build configuration list for PBXProject "HappyNewYear" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C32A4F27A81D230027857C;
+			productRefGroup = 44C32A5927A81D230027857C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C32A5727A81D230027857C /* HappyNewYear */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C32A5627A81D230027857C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C32A6827A81D270027857C /* LaunchScreen.storyboard in Resources */,
+				44C32A7927A834C50027857C /* WenYue-HuiMoShouShu-J-2.otf in Resources */,
+				44C32A7C27A839F70027857C /* 2045-furtune.json in Resources */,
+				44C32A8227A842AF0027857C /* 14274-chinese-new-year.json in Resources */,
+				44849AE22B403A71003016E8 /* Assets.xcassets in Resources */,
+				44C32A8F27A853030027857C /* 春节序曲.mp3 in Resources */,
+				44C32A7627A833140027857C /* STXINGKA.ttf in Resources */,
+				44C32A8527A842B70027857C /* 74268-cute-tiger.json in Resources */,
+				44C32A6327A81D230027857C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20048AAC2EB11933541161F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyNewYear-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD692FCA315B23152F2FE02F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyNewYear/Pods-HappyNewYear-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyNewYear/Pods-HappyNewYear-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyNewYear/Pods-HappyNewYear-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C32A5427A81D230027857C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C32A7F27A8418E0027857C /* NewYearViewController.swift in Sources */,
+				44C32A6027A81D230027857C /* ViewController.swift in Sources */,
+				44C32A5C27A81D230027857C /* AppDelegate.swift in Sources */,
+				44C32A5E27A81D230027857C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44C32A6127A81D230027857C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C32A6227A81D230027857C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44C32A6627A81D270027857C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C32A6727A81D270027857C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44C32A6A27A81D270027857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44C32A6B27A81D270027857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C32A6D27A81D270027857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E6B2FDF175660E9AF6C9AB /* Pods-HappyNewYear.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W56GAX7V79;
+				INFOPLIST_FILE = HappyNewYear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cerf.HappyNewYear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C32A6E27A81D270027857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3079DFECDCB157FEC986AE5C /* Pods-HappyNewYear.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W56GAX7V79;
+				INFOPLIST_FILE = HappyNewYear/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cerf.HappyNewYear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C32A5327A81D230027857C /* Build configuration list for PBXProject "HappyNewYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C32A6A27A81D270027857C /* Debug */,
+				44C32A6B27A81D270027857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C32A6C27A81D270027857C /* Build configuration list for PBXNativeTarget "HappyNewYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C32A6D27A81D270027857C /* Debug */,
+				44C32A6E27A81D270027857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C32A5027A81D230027857C /* Project object */;
+}
